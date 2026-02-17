@@ -1,0 +1,22 @@
+#scene-navigation {
+	flex: 0 0;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+#scene-navigation #scene-navigation-expand {
+    position: relative;
+}
+#notifications {
+	top:unset;
+	bottom:10vh;
+}
+#scene-navigation-inactive li{
+  width:fit-content;
+}
+#scene-navigation-inactive {
+  display: flex;
+    width: 75vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
